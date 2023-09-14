@@ -1,8 +1,13 @@
+import CourseName from "./CourseName";
 
-const CourseDetail = () => {
+const CourseDetail = ({courseName}) => {
+    console.log(courseName)
     return (
         <div className="">
-            <h3>Coues details:</h3>
+            <h3 className="font-bold">Course Name: {courseName.length} </h3>
+            {
+                courseName.map( listOfcourse=><CourseName listOfcourse={listOfcourse}></CourseName>)
+            }
         </div>
     );
 };

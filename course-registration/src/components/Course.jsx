@@ -1,5 +1,5 @@
 import { FaBeer } from 'react-icons/fa';
-const Course = ({course}) => {
+const Course = ({course,handleCourseName}) => {
     const{course_img,course_title,course_description,price,credit} = course
     return (
         <div>
@@ -16,7 +16,7 @@ const Course = ({course}) => {
         </div>
 
     <div className="card-actions">
-      <button className="btn bg-[#2F80ED] text-white w-[280px]">Select</button>
+      <button onClick={()=> handleCourseName(course)} className="btn bg-[#2F80ED] text-white w-[280px]">Select</button>
     </div>
   </div>
 </div>
