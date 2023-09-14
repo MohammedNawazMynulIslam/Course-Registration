@@ -1,0 +1,65 @@
+[
+    {
+      "course_img": "https://i.ibb.co/4MngrKB/Rectangle-2.png",
+      "course_title": "Introduction to Python",
+      "course_description": "Use Python for data analysis, visualization, and machine learning.",
+      "price": 15000,
+      "credit": 1
+    },
+    {
+      "course_img": "https://i.ibb.co/VMwHzBq/Rectangle-2-1.png",
+      "course_title": "MySQL",
+      "course_description": "Master SQL and database management for web applications.",
+      "price": 25000,
+      "credit": 2
+    },
+    {
+      "course_img": "https://i.ibb.co/vjSf3N7/Rectangle-2-2.png",
+      "course_title": "C Programming",
+      "course_description": "Learn the Advance of C ",
+      "price": 10000,
+      "credit": 10
+    },
+    {
+      "course_img": "https://i.ibb.co/hHVjvNc/Rectangle-2-3.png",
+      "course_title": "Algorithm",
+      "course_description": "Learn how Algorithm works",
+      "price": 35000,
+      "credit": 5
+    },
+    {
+      "course_img": "https://i.ibb.co/f4KpbxC/Rectangle-2-4.png",
+      "course_title": "C++",
+      "course_description": "Learn C++ for game development",
+      "price": 19000,
+      "credit": 5
+    },
+    {
+      "course_img": "https://i.ibb.co/sQDpH79/Rectangle-2-5.png",
+      "course_title": "Software Engineering",
+      "course_description": "Learn A-Z of a software",
+      "price": 23000,
+      "credit": 2
+    },
+    {
+      "course_img": "https://i.ibb.co/s67JsTh/Rectangle-2-6.png",
+      "course_title": "Problem Solving",
+      "course_description": "For doing comparative programming",
+      "price": 35000,
+      "credit": 5
+    },
+    {
+      "course_img": "https://i.ibb.co/dkTS803/Rectangle-3.png",
+      "course_title": "Data Structure",
+      "course_description": "Explore fundamental data structures",
+      "price": 19000,
+      "credit": 5
+    },
+    {
+      "course_img": "https://i.ibb.co/KVc0tjP/Rectangle-3-1.png",
+      "course_title": "Introduction to AWS",
+      "course_description": "Learn the basics of AWS",
+      "price": 23000,
+      "credit": 2
+    }
+  ]
