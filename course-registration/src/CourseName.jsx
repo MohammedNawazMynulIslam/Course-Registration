@@ -1,5 +1,4 @@
 
-
 const CourseName = ({listOfcourse}) => {
     const{course_title} = listOfcourse
 
