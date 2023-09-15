@@ -1,13 +1,16 @@
 import CourseName from "./CourseName";
 
-const CourseDetail = ({courseName}) => {
-    console.log(courseName)
+const CourseDetail = ({courseName,totalCredit}) => {
     return (
         <div className="">
-            <h3 className="font-bold">Course Name: {courseName.length} </h3>
+            <h2 className="text-[#2F80ED] my-5">Credit Hour Remaining </h2>
+            <hr />
+            <h3 className="font-bold my-5">Course Name: {courseName.length} </h3>
             {
                 courseName.map( listOfcourse=><CourseName listOfcourse={listOfcourse}></CourseName>)
             }
+            <hr className="my-5" />
+            <h3 className="my-10">Total Credit Hour : {totalCredit}</h3>
         </div>
     );
 };
