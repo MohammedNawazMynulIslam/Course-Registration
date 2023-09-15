@@ -9,7 +9,7 @@ const Courses = ({handleCourseName}) => {
         .then(data=>setCourse(data))
     },[])
     return (
-        <div><h3>Couse Liust: {course.length}</h3>
+        <div>
         <div className="grid grid-cols-3 gap-4">
             {
                 course.map(course=><Course course={course}
