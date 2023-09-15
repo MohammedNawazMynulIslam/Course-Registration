@@ -3,6 +3,7 @@
     "daisyui": "^3.7.4"
   },
   "dependencies": {
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "react-toastify": "^9.1.3"
   }
 }
