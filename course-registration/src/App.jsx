@@ -20,20 +20,18 @@ function App() {
     if (isSelected) {
       toast.error('No duplicates allowed');
     } else {
-      // setCourseName([...courseName, course]);
-      setSelectedCourse([...selectedCourse, course]);
-      selectedCourse.forEach(item=>{
+      selectedCourse.forEach((item)=>{
         count+=item.credit
-      })
-      const hourleft = 20-count;
-
+      });
       if(count>20){
         toast.error('Cant take more than 20 hr credit');
       }
       else{
+        const hourleft = 20 - count
       setTotalHourRemains(hourleft)
       setTotalCredit(count)
       setCourseName([...courseName, course]);
+      setSelectedCourse([...selectedCourse, course])
       }
 
     }
