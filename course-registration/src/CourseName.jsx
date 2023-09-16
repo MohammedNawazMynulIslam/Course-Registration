@@ -1,10 +1,13 @@
 
 const CourseName = ({listOfcourse}) => {
     const{course_title} = listOfcourse
+    console.log(course_title)
 
     return (
         <div>
-            <h3 className="text-md">{course_title}</h3>
+            <p className="text-md">
+                <li className="list-decimal">{course_title}</li>
+                </p>
         </div>
     );
 };

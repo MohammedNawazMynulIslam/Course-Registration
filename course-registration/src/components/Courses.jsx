@@ -15,6 +15,7 @@ const Courses = ({handleCourseName}) => {
                 course.map(course=><Course course={course}
                     handleCourseName={handleCourseName}></Course>)
             }
+
         </div>
         </div>
     );
